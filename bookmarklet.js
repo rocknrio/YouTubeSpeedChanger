@@ -98,14 +98,14 @@
   //Design the element and attach it
   var controller = document.createElement('div');
   var boxSizing = "box-sizing:border-box;";
-  var stdStyle = ";background-color:#eee;border:1px solid #333;border-radius:3px;margin:2px;"+boxSizing;
+  var stdStyle = ";background-color:#eee;border:1px solid #333;border-radius:5px;margin:2px;"+boxSizing;
   var boxStyle = stdStyle + ";padding:2px";
-  var btnStyle = stdStyle + ";padding:2px 3px";
+  var btnStyle = stdStyle + ";padding:2px 4px";
   controller.setAttribute("id",controlId);
   controller.innerHTML = '<div style="font:12px monospace;position:fixed;left:900px;top:4px;z-index:2139999999;box-shadow:1px 1px 4px #666'+boxStyle+'">'
                             +'<button class="minus" style="'+btnStyle+'">-</button>'
                             +'<input type="text" style="border:0;padding:0;background-color:#eee;height:26px;margin:2px 0;width:24px;'+boxSizing+'">%'
-                             +'<button class="plus" style="'+btnStyle+'">+</button>'
+                            +'<button class="plus" style="'+btnStyle+'">+</button>'
                         +'</div>';
 
   body.appendChild(controller);
