@@ -102,7 +102,7 @@
   var boxStyle = stdStyle + ";padding:2px";
   var btnStyle = stdStyle + ";padding:2px 3px";
   controller.setAttribute("id",controlId);
-  controller.innerHTML = '<div style="font:12px monospace;position:fixed;left:2px;top:2px;z-index:2139999999;box-shadow:1px 1px 4px #666'+boxStyle+'">'
+  controller.innerHTML = '<div style="font:12px monospace;position:fixed;left:900px;top:4px;z-index:2139999999;box-shadow:1px 1px 4px #666'+boxStyle+'">'
                             +'<button class="plus" style="'+btnStyle+'">+</button>'
                             +'<input type="text" style="border:0;padding:0;background-color:#eee;height:26px;margin:2px 0;width:24px;'+boxSizing+'">%'
                             +'<button class="minus" style="'+btnStyle+'">-</button>'
