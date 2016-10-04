@@ -104,7 +104,7 @@
   controller.setAttribute("id",controlId);
   controller.innerHTML = '<div style="font:12px monospace;position:fixed;left:900px;top:4px;z-index:2139999999;box-shadow:1px 1px 4px #666'+boxStyle+'">'
                             +'<button class="minus" style="'+btnStyle+'">-</button>'
-                            +'<input type="text" style="border:0;padding:0;background-color:#eee;height:26px;margin:2px 0;width:24px;'+boxSizing+'">%'
+                            +'<input type="text" style="border:0;padding:0;background-color:#eee;height:26px;margin:2px 0;width:24px;align:right;'+boxSizing+'">%'
                             +'<button class="plus" style="'+btnStyle+'">+</button>'
                         +'</div>';
 
